@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.profile-pic{
+    border: 2px solid white;
+}
+.resume-container {
+    display: flex;
+    max-width: 800px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+}
+
+.left-sidebar {
+    background-color: #272626;
+    color: #faf7f7;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.right-section {
+    padding: 20px;
+    width: 70%;
+}
+
+.right-section li{
+    list-style: none;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.profile {
+    margin-right: 4px;
+    color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+i {
+    margin-right: 1vw;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #1d1b1b;
+}
+.left-sidebar h2,h3{
+    color: #ddd;
+}
+
+h3 {
+    font-size: 16px;
+    color: #292828;
+}
+
+p {
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.contact-div {
+    margin-right: 4px;
+    color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.skills {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.skills h2 {
+    font-size: 18px;
+    color: #f3efef;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.skills i {
+    margin-right: 10px;
+    color: #f3efef;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #ddd;
+}
+
+.skills ul li {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.skills ul li::before {
+    content: "•"; /* Adds a bullet point before each skill */
+    margin-right: 8px;
+    color: #f3efef;
+    font-size: 18px;
+}
+
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    color: #ddd;
+    margin-bottom: 8px;
+}
+.fa-solid{
+    padding-bottom: 4px;
+}
+
+
+.contact-item i {
+    margin-right: 8px;
+}
+
+
+
+.education, .experience {
+    margin-bottom: 20px;
+}
